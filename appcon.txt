@@ -1,0 +1,4 @@
+InputStream input  = new ByteArrayInputStream(arrays);
+		BufferedReader reader = new BufferedReader(new InputStreamReader(input));
+		StringBuilder sb = new StringBuilder();
+		String temp = null;
